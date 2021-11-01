@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Inter;
+    font-weight: regular;
+    src: url(/dist/assets/fonts/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 200;
+    src: url(/dist/assets/fonts/Inter-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 600;
+    src: url(/dist/assets/fonts/Inter-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Open Sans;
+    font-weight: regular;
+    src: url(/dist/assets/fonts/opensans-regular.ttf);
+  }
+  @font-face {
+    font-family: Open Sans;
+    font-weight: bold;
+    src: url(/dist/assets/fonts/opensans-bold.ttf);
+  }
+}
