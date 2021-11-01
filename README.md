@@ -1,5 +1,7 @@
 # A Beeze through TailwindCSS
 
+<img width="1788" alt="Screen Shot 2021-11-02 at 9 33 24 am" src="https://user-images.githubusercontent.com/16508265/139751452-853b4b29-5066-4236-8513-e7ed74f2eee9.png">
+
 ## Available Scripts
 
 ### npm start
