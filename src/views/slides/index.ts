@@ -1,2 +1,12 @@
 export { Title } from './Title';
 export { Introduction } from './Introduction';
+export { UtilityIntro } from './UtilityIntro';
+export { UtilityExamples } from './UtilityExamples';
+export { ProblemIntro } from './ProblemIntro';
+export { ProblemExample } from './ProblemExample';
+export { default as ComponentIntro } from './ComponentIntro';
+export { default as ComponentExample } from './ComponentExample';
+export { default as Upsides } from './Upsides';
+export { default as Downsides } from './Downsides';
+export { default as Config } from './Config';
+export { default as Wrapup } from './Wrapup';

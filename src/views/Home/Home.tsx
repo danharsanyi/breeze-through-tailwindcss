@@ -1,10 +1,33 @@
 import React, {useState} from 'react';
-import { Introduction, Title } from '../slides';
+import {
+  ComponentExample,
+  ComponentIntro,
+  Config,
+  Downsides,
+  Introduction,
+  ProblemExample,
+  ProblemIntro,
+  Title,
+  UtilityIntro,
+  UtilityExamples,
+  Upsides,
+  Wrapup
+} from '../slides';
 import { Link, useParams } from 'react-router-dom';
 
 const SLIDES = [
   Title,
-  Introduction
+  Introduction,
+  UtilityIntro,
+  UtilityExamples,
+  ProblemIntro,
+  ProblemExample,
+  ComponentIntro,
+  ComponentExample,
+  Upsides,
+  Config,
+  Downsides,
+  Wrapup
 ]
 
 type Props = {};

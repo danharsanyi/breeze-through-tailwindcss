@@ -1,16 +1,15 @@
 import React from 'react';
-import { Logo } from '../../components';
 import { SideBySide } from '../../components/templates';
 
 export const Introduction = () => {
   return (
-    <SideBySide>
-      <div className="flex justify-center items-center bg-teal col-span-6 h-screen">
-        <p className="text-white">A Breeze through TailwindCSS</p>
+    <>
+      <div className="flex justify-center items-center bg-teal col-span-4 h-screen p-12 ">
+        <p className="text-white font-heading font-bold text-4xl">What is TailwindCSS?</p>
       </div>
-      <div className="flex justify-center items-center bg-teal col-span-6 h-screen">
-        <p className="text-white">A Breeze through TailwindCSS 3</p>
+      <div className="flex justify-center items-center col-span-8 h-screen p-12 text-center">
+        <h2 className="font-heading text-4xl text-black">A Design System API using a set of "Utility First" building blocks</h2>
       </div>
-    </SideBySide>
+    </>
   );
 }

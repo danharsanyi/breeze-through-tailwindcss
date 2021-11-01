@@ -1,13 +1,6 @@
 // Dependencies
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
-
-import { Introduction, Title } from '../slides';
-
-const SLIDES = [
-  Title,
-  Introduction
-]
 
 // Views
 import { Home } from '../../views/index';

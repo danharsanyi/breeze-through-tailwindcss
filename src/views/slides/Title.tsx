@@ -9,7 +9,7 @@ export const Title = () => {
         <Logo iconColour="white" />
       </div>
       <div>
-        <p className="text-white text-4xl font-heading font-semibold">A Breeze Through TailwindCSS</p>
+        <p className="text-white text-4xl font-heading font-semibold">A Breeze Through TailwindCSS &#x1F4A8;</p>
       </div>
     </FullScreen>
   );
