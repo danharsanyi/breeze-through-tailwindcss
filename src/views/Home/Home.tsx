@@ -38,7 +38,7 @@ export const Home = ( props: Props ) => {
   const Component = SLIDES[index];
 
   return (
-    <Link to={`/${Number(index) + 1}`} className="grid grid-cols-12 grid-rows-6 h-screen">
+    <Link to={ index < (SLIDES.length -1) ? `/${Number(index) + 1}` : `/${Number(index)}`} className="grid grid-cols-12 grid-rows-6 h-screen">
         <Component />
     </Link>
   );
